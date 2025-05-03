@@ -58,7 +58,7 @@ markdown: kramdown
 theme: minima
 
 plugins:
-  - github-pages
+  # - github-pages
   - jekyll-admin
   - jekyll-feed
   # - jekyll-figure
@@ -82,13 +82,12 @@ exclude:
   - README.md
   - ref
   - scratch
-  - ["docs", "ref", "scratch"]
   - setup.sh
 
 excerpt_separator: "<!--more-->"
 sass:
   style: expanded
-  sourcemap: true
+  sourcemap: always
 
 titles_from_headings:
   enabled:     true

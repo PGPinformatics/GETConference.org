@@ -17,7 +17,7 @@
     {%- include_cached header.html year=year current_conf=current_conference_year -%}
 
     {%- if page.layout == "home" -%}
-        {%- assign subheader_str = "subheaders/subheader" | append: page.year | append: ".html" -%}
+        {%- assign subheader_str = "subheaders/subheader" | append: year | append: ".html" -%}
         {%- include {{ subheader_str }} -%}
       <main id="content-wide" class="content-wide clear" aria-label="Content">
     {%- else -%}
@@ -28,11 +28,11 @@
 
     {%- if page.layout == "home" -%}
       <div id="sidebar" class="sidebar">
-        {%- if page.year == 2016 -%}
-          {%- assign sidebar_str = "sidebars/sidebar" | append: page.year | append: ".html" -%}
+        {%- if year == 2016 -%}
+          {%- assign sidebar_str = "sidebars/sidebar" | append: year | append: ".html" -%}
           {%- include {{ sidebar_str }} speakers_col=speakers_str organizers_col=organizers_str conf_year=current_conference_year -%}
         {%- else -%}
-            {%- assign sidebar_str = "sidebars/sidebar" | append: page.year | append: ".html" -%}
+            {%- assign sidebar_str = "sidebars/sidebar" | append: year | append: ".html" -%}
             {%- include {{ sidebar_str }} speakers_col=speakers_str organizers_col=organizers_str conf_year=current_conference_year -%}
         {%- endif -%}
       {%- endif -%}

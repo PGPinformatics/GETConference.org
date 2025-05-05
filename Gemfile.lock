@@ -39,7 +39,7 @@ GEM
       sinatra-contrib (~> 1.4)
     jekyll-archives (2.3.0)
       jekyll (>= 3.6, < 5.0)
-    jekyll-feed (0.13.0)
+    jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
@@ -71,7 +71,7 @@ GEM
     multi_json (1.15.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (5.1.1)
+    public_suffix (6.0.2)
     rack (1.6.13)
     rack-protection (1.5.5)
       rack
@@ -116,7 +116,7 @@ DEPENDENCIES
   jekyll (~> 3.10)
   jekyll-admin
   jekyll-archives
-  jekyll-feed (~> 0.6)
+  jekyll-feed
   jekyll-include-cache
   jekyll-redirect-from
   jekyll-seo-tag
@@ -124,8 +124,6 @@ DEPENDENCIES
   jekyll-titles-from-headings
   kramdown-parser-gfm
   minima (~> 2.0)
-  public_suffix (~> 5.1.1)
-  rexml (~> 3.4)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)

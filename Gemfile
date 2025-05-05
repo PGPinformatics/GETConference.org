@@ -15,12 +15,12 @@ gem "minima", "~> 2.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-admin'
+#  gem 'jekyll-admin'
   gem 'jekyll-feed'
-  gem 'jekyll-archives'
+#  gem 'jekyll-archives'
   gem 'jekyll-include-cache'
-  gem 'jekyll-redirect-from'
-  gem 'jekyll-seo-tag'
+#  gem 'jekyll-redirect-from'
+#  gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll-titles-from-headings'
 end

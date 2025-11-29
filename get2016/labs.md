@@ -13,7 +13,7 @@ The GET Conference is preceded by a uniquely interactive event on April 25th cal
 Interested in attending Labs+Expo on April 25th?<br>
 <a href="https://www.eventbrite.com/e/get-labs-tickets-21118572218"><img class="labs-btn" src="{{ "/get2010/images/btn_register_now.gif" | absolute_url }}" alt="Register Now"></a>
 
-<div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/PvGVMg1wjoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/MWvQm1rlRLk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 <div class="labs-agenda">
 <h2>Agenda April 25, 2016</h2>
